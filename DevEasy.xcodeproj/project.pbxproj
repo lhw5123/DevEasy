@@ -35,6 +35,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E7A8B5A2B46FA6C00459801 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8E7A8B5B2B46FA7D00459801 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8E7A8B5C2B46FA8600459801 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
 		8ED512E82B4599FF00DD9B40 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +75,9 @@
 		8ED512F32B4599FF00DD9B40 /* DevEasy */ = {
 			isa = PBXGroup;
 			children = (
+				8E7A8B5C2B46FA8600459801 /* Pages */,
+				8E7A8B5B2B46FA7D00459801 /* Utils */,
+				8E7A8B5A2B46FA6C00459801 /* Models */,
 				8ED512F42B4599FF00DD9B40 /* DevEasyApp.swift */,
 				8ED512F62B4599FF00DD9B40 /* ContentView.swift */,
 				8ED512F82B4599FF00DD9B40 /* Item.swift */,
