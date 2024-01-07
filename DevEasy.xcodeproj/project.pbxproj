@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0753B7CC2B4ACAAD00FB1DEE /* Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0753B7CB2B4ACAAD00FB1DEE /* Json.swift */; };
 		8ED512F52B4599FF00DD9B40 /* DevEasyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED512F42B4599FF00DD9B40 /* DevEasyApp.swift */; };
 		8ED512F72B4599FF00DD9B40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED512F62B4599FF00DD9B40 /* ContentView.swift */; };
 		8ED512F92B4599FF00DD9B40 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED512F82B4599FF00DD9B40 /* Item.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0753B7CB2B4ACAAD00FB1DEE /* Json.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Json.swift; sourceTree = "<group>"; };
 		8ED512F12B4599FF00DD9B40 /* DevEasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevEasy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ED512F42B4599FF00DD9B40 /* DevEasyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevEasyApp.swift; sourceTree = "<group>"; };
 		8ED512F62B4599FF00DD9B40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0753B7CA2B4ACA5D00FB1DEE /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				0753B7CB2B4ACAAD00FB1DEE /* Json.swift */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
 		8E7A8B5A2B46FA6C00459801 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +62,7 @@
 		8E7A8B5C2B46FA8600459801 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				0753B7CA2B4ACA5D00FB1DEE /* Json */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -169,6 +180,7 @@
 				8ED512F72B4599FF00DD9B40 /* ContentView.swift in Sources */,
 				8ED512F92B4599FF00DD9B40 /* Item.swift in Sources */,
 				8ED512F52B4599FF00DD9B40 /* DevEasyApp.swift in Sources */,
+				0753B7CC2B4ACAAD00FB1DEE /* Json.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
