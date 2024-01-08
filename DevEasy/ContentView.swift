@@ -9,18 +9,20 @@ import SwiftUI
 import SwiftData
 
 struct ContentView: View {
-    @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
+    @State private var jsonStr: String = ""
 
     var body: some View {
         NavigationSplitView {
             List {
-                Text("JSON")
+                Button("JSON") {
+                    jsonStr = "{\"text\": \"Hello world\"}"
+                    jsonStr = formatJSONString(jsonStr)!
+                }
                 Text("Text Diff")
             }
             .navigationSplitViewColumnWidth(min: 180, ideal: 200)
         } detail: {
-            Text("Select an item")
+            Text(jsonStr)
         }
     }
 }
